@@ -1,18 +1,12 @@
-// components
 import Circles from "/components/Circles";
-
-// icons
 import { BsArrowRight } from "react-icons/bs";
-
-// framer
 import { motion } from "framer-motion";
-
-// variants
 import { fadeIn } from "../../variants";
 
 const Contact = () => {
   return (
     <div className="h-full bg-primary/30">
+      <Circles />
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
         {/* text & form */}
         <div className="flex flex-col w-full max-w-[700px]">

@@ -1,101 +1,10 @@
-import React, { useState } from "react";
-
-// icons
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
-import { TbBrandAndroid, TbBrandReactNative } from "react-icons/tb";
-import {
-  SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiInkscape,
-  SiTypescript,
-  SiGimp,
-} from "react-icons/si";
-
-//  about data
-export const aboutData = [
-  {
-    title: "skills",
-    info: [
-      {
-        title: "Development",
-        icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <SiTypescript />,
-          <FaReact />,
-          <TbBrandReactNative />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <TbBrandAndroid />,
-        ],
-      },
-      {
-        title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />, <SiGimp />, <SiInkscape />],
-      },
-    ],
-  },
-  {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
-    ],
-  },
-  {
-    title: "experience",
-    info: [
-      {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
-      },
-      {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
-      },
-    ],
-  },
-  {
-    title: "credentials",
-    info: [
-      {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
-      },
-      {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
-      },
-    ],
-  },
-];
-
-// components
-import Avatar from "../../components/Avatar";
+import { aboutData } from "../../components/data/aboutData";
 import Circles from "../../components/Circles";
-
-// framer motion
-import { motion } from "framer-motion";
+import Avatar from "../../components/Avatar";
 import { fadeIn } from "../../variants";
-
-// counter
+import { motion } from "framer-motion";
 import CountUp from "react-countup";
+import { useState } from "react";
 
 const About = () => {
   const [index, setIndex] = useState(0);
@@ -192,7 +101,7 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
+          className="flex flex-col w-full xl:max-w-[48%] h-[480px] overflow-y-auto"
         >
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => {
@@ -215,16 +124,20 @@ const About = () => {
               return (
                 <div
                   key={itemIndex}
-                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
+                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 "
                 >
                   {/* title */}
                   <div className="font-light mb-2 md:mb-0">{item.title}</div>
                   <div className="hidden md:flex">-</div>
-                  <div>{item.stage}</div>
+                  <div>{item.date}</div>
                   <div className="flex gap-x-4">
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
-                      return <div className="text-2xl text-white">{icon}</div>;
+                      return (
+                        <div key={itemIndex} className="text-2xl text-white">
+                          {icon}
+                        </div>
+                      );
                     })}
                   </div>
                 </div>
