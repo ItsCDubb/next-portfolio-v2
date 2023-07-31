@@ -26,19 +26,19 @@ export const serviceData = [
     icon: <FaCode />,
     title: "Web Design & Development",
     description:
-      "I will design & build the website of your dreams using the latest technologies available to me like React or Vanilla HTML, CSS, & JavaScript.",
+      "Design & build the website of your dreams using the latest technologies available.",
   },
   {
     icon: <FaGamepad />,
     title: "Game Design & Development",
     description:
-      "I will design & build the game you have been thinking about using the latest technologies available to me like Unity.",
+      "Design & build the game you have been thinking about using the latest technologies available.",
   },
   {
     icon: <RxPencil2 />,
     title: "Design",
     description:
-      "I will design the product you've been envisioning, using products like Figma or Adobe XD",
+      "Design the product you've been envisioning, using products like Figma or Adobe XD",
   },
   {
     icon: <FaMobileAlt />,
@@ -72,7 +72,7 @@ const ServiceSlider = () => {
       {serviceData.map((item, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className="bg-[rgb(24,24,24)] h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgb(24,24,24)] transition-all duration-300">
+            <div className="bg-secondary h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-secondary transition-all duration-300">
               {/* icon */}
               <div className="text-4xl text-accent mb-4">{item.icon}</div>
               {/* title & desc */}

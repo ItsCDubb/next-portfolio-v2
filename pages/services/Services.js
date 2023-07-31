@@ -1,9 +1,6 @@
-// components
 import ServiceSlider from "../../components/ServiceSlider";
 import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
-
-// framer motion
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
@@ -31,8 +28,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              These are some of the service that I provide, to get an exhaustive
-              list talk with me
+              These are some of the service that I provide
             </motion.p>
           </div>
 
