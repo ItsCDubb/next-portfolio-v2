@@ -1,11 +1,6 @@
-// next image
-import Image from "next/image";
-
-// next link
-import Link from "next/link";
-
-// icons
 import { HiArrowRight } from "react-icons/hi2";
+import Image from "next/image";
+import Link from "next/link";
 
 const ProjectsBtn = () => {
   return (

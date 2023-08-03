@@ -42,12 +42,12 @@ export const aboutData = [
     title: "education",
     info: [
       {
-        title: "Computer Science - Bachelor of Science",
-        date: "2003",
-      },
-      {
         title: "Computer Science - Master of Science",
         date: "2006",
+      },
+      {
+        title: "Computer Science - Bachelor of Science",
+        date: "2003",
       },
     ],
   },
@@ -88,7 +88,7 @@ export const aboutData = [
         date: "February 2020",
       },
       {
-        title: "Front-End Web Design - Kenzie Academy",
+        title: "Front End Web Design - Kenzie Academy",
         date: "April 2020",
       },
       {

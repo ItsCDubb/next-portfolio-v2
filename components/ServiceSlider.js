@@ -1,52 +1,10 @@
-// import swiper react components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// import swiper styles
+import { serviceData } from "../data/serviceData";
+import { RxArrowTopRight } from "react-icons/rx";
+import { FreeMode, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-
-// icons
-import { RxPencil2, RxRocket, RxArrowTopRight } from "react-icons/rx";
-import { BiSolidServer } from "react-icons/bi";
-import { FaCode, FaGamepad, FaMobileAlt } from "react-icons/fa";
-
-// import required modules
-import { FreeMode, Pagination } from "swiper";
-
-// service data
-export const serviceData = [
-  {
-    icon: <BiSolidServer />,
-    title: "Hosting",
-    description:
-      "I will host your app or website with an eye on price to make sureyou dont waste your hard earned money.",
-  },
-  {
-    icon: <FaCode />,
-    title: "Web Design & Development",
-    description:
-      "Design & build the website of your dreams using the latest technologies available.",
-  },
-  {
-    icon: <FaGamepad />,
-    title: "Game Design & Development",
-    description:
-      "Design & build the game you have been thinking about using the latest technologies available.",
-  },
-  {
-    icon: <RxPencil2 />,
-    title: "Design",
-    description:
-      "Design the product you've been envisioning, using products like Figma or Adobe XD",
-  },
-  {
-    icon: <FaMobileAlt />,
-    title: "Mobile App Development",
-    description:
-      "This is my specialty, I will develop the next greatest app for you using technologies like React Native or Kotlin",
-  },
-];
 
 const ServiceSlider = () => {
   return (

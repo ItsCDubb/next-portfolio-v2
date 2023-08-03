@@ -1,10 +1,10 @@
 import WorkSlider from "../../components/WorkSlider";
-import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
-import { motion } from "framer-motion";
+import Bulb from "../../components/Bulb";
 import { fadeIn } from "../../variants";
+import { motion } from "framer-motion";
 
-const Work = () => {
+export default function Work() {
   return (
     <div className="h-full bg-primary/30 py-36 flex items-center">
       <Circles />
@@ -31,8 +31,6 @@ const Work = () => {
               If you can imagine it, I can build it!
             </motion.p>
           </div>
-
-          {/* slider */}
           <motion.div
             variants={fadeIn("down", 0.6)}
             initial="hidden"
@@ -47,6 +45,4 @@ const Work = () => {
       <Bulb />
     </div>
   );
-};
-
-export default Work;
+}
