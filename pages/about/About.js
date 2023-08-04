@@ -16,7 +16,7 @@ const About = () => {
         <title>Chris Warren | About</title>
         <meta
           name="description"
-          content="Learn more about Chris Warren, a full-stack designer & developer with a passion for 
+          content="Learn more about me, a full-stack designer & developer with a passion for 
         creating innovative solutions."
         />
       </Head>

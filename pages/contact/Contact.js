@@ -11,7 +11,7 @@ const Contact = () => {
         <title>Chris Warren | Contact</title>
         <meta
           name="description"
-          content="My contact page, feel free to contact me so I can build &  solution."
+          content="My contact page, feel free to contact me so I can build & solution."
         />
       </Head>
       <div className="h-full bg-primary/30">

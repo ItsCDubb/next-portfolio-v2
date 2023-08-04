@@ -10,10 +10,7 @@ export default function Work() {
     <>
       <Head>
         <title>Chris Warren | Portfolio</title>
-        <meta
-          name="description"
-          content="Chris Warren's Portfolio, I'm a full-stack designer & developer with a passion for creating innovative solutions."
-        />
+        <meta name="description" content="My Portfolio" />
       </Head>
       <div className="h-full bg-primary/30 py-36 flex items-center">
         <Circles />
