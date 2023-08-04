@@ -3,40 +3,32 @@ export const workSlider = {
     {
       images: [
         {
-          title: "title",
-          path: "/thumb1.jpg",
+          title: "Amazon (Look-alike)",
+          path: "/images/projects/React/amazon-look-a-like.webp",
         },
         {
-          title: "title",
-          path: "/thumb2.jpg",
+          title: "Slack (Look-alike)",
+          path: "/images/projects/React/slack-look-a-like.webp",
         },
         {
-          title: "title",
-          path: "/thumb3.jpg",
+          title: "This Website",
+          path: "/images/projects/Next/this-website.webp",
         },
         {
-          title: "title",
-          path: "/thumb4.jpg",
+          title: "Netflix (Look-alike)",
+          path: "/images/projects/React/netflix-look-a-like.webp",
         },
       ],
     },
     {
       images: [
         {
-          title: "title",
-          path: "/thumb4.jpg",
+          title: "CW Technologies",
+          path: "/images/projects/React/cwtechnologies.webp",
         },
         {
-          title: "title",
-          path: "/thumb1.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
+          title: "Twitter (Look-alike)",
+          path: "/images/projects/React/twitter-look-a-like.webp",
         },
       ],
     },

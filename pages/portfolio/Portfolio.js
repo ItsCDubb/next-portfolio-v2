@@ -1,10 +1,9 @@
-import Projects from "../../components/Projects";
+import WorkSlider from "../../components/WorkSlider";
 import Circles from "../../components/Circles";
 import Bulb from "../../components/Bulb";
 import { fadeIn } from "../../variants";
 import { motion } from "framer-motion";
 import Head from "next/head";
-
 export default function Work() {
   return (
     <>
@@ -43,7 +42,7 @@ export default function Work() {
               exit="hidden"
               className="w-full xl:max-w-[65%]"
             >
-              <Projects />
+              <WorkSlider />
             </motion.div>
           </div>
         </div>
