@@ -18,7 +18,7 @@ export const workSlider = {
           title: "This Website",
           path: "/images/projects/Next/ChrisWarren.webp",
           link: "https://www.chriswarren.dev",
-          github: "https://github.com/ItsCDubb/amazon-look-a-like-front-end",
+          github: "https://github.com/ItsCDubb/next-portfolio-v2",
         },
         {
           title: "Netflix (Look-alike)",
