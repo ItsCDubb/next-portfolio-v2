@@ -38,6 +38,13 @@ const Home = () => {
               As a designer & developer, I have acquired the skills & knowledge
               necessary to make your project a success.
             </motion.p>
+            <a
+              href="/chris_warren.pdf"
+              download
+              className="bg-secondary rounded-full p-3 w-[110px] justify-center text-center mb-5 border border-white/50 hover:bg-accent"
+            >
+              My Resume
+            </a>
             {/* btn */}
             <div className="flex justify-center xl:hidden relative">
               <ProjectsBtn />
