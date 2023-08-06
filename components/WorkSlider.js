@@ -45,7 +45,7 @@ const WorkSlider = () => {
                               href={image.github}
                               target="_Blank"
                             >
-                              <div className="text-2xl hover:text-accent">
+                              <div className="text-2xl hover:text-primary">
                                 <BsGithub />
                               </div>
                             </Link>

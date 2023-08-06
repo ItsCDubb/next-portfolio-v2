@@ -28,7 +28,7 @@ export const aboutData = [
         ],
       },
       {
-        title: "UI/UX Design",
+        title: "Design",
         icons: [
           <FaFigma key={1} />,
           <SiAdobexd key={2} />,
@@ -56,19 +56,43 @@ export const aboutData = [
     info: [
       {
         title: "React Native Developer - SwagCheck, Inc.",
-        date: "2021 - 2022",
+        date: "Dec 2021 - Jan 2022",
       },
       {
         title: "Full-Stack Developer - Avaaz Media, Inc",
-        date: "2020 - 2021",
+        date: "Dec 2020 - Feb 2021",
       },
       {
-        title: "Director of Technology - The Five Star Institute ",
-        date: "2013 - 2013",
+        title: "Software Engineer - State Street HOA",
+        date: "May 2015 - Jul 2015",
       },
       {
-        title: "PC Repair Technician - The Five Star Institute ",
-        date: "2013 - 2013",
+        title: "Software Engineer - Donald & Wife Books",
+        date: "Mar 2015 - Apr 2015",
+      },
+      {
+        title: "Software Engineer - Ward Consignment",
+        date: "Aug 2014 - Jan 2015",
+      },
+      {
+        title: "Software Engineer - McBride & Sons Auto",
+        date: "Jan 2014 - Jun 2014",
+      },
+      {
+        title: "Director of Technology - The Five Star",
+        date: "Apr 2013 - Dec 2013",
+      },
+      {
+        title: "PC Repair Technician - The Five Star",
+        date: "Mar 2013 - Apr 2013",
+      },
+      {
+        title: "Software Engineer - St. Matthew's Churches",
+        date: "Jul 2010 - Nov 2012",
+      },
+      {
+        title: "IT2 - US Navy",
+        date: "Jul 2000 - Dec 2006",
       },
     ],
   },
