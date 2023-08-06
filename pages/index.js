@@ -12,7 +12,7 @@ const Home = () => {
         <title>Chris Warren</title>
         <meta
           name="description"
-          content="Explore my website. I'm a Full-Stack Engineer, Designer, & so many other things."
+          content="I'm a Full-Stack Engineer, Designer, & so many other things."
         />
       </Head>
       <div className="bg-primary/60 h-full sm:text-sm ">
