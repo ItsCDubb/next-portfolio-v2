@@ -58,7 +58,7 @@ const Contact = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="flex flex-col h3 text-center mb-12 justify-between"
+              className="flex flex-col h3 text-center mb-12 -mt-3 justify-between"
             >
               Email:{" "}
               <a href="mailto:chris.warren.2019@gmail.com">

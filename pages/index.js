@@ -23,7 +23,7 @@ const Home = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="mt-40 h1"
+              className="mt-20 h1"
             >
               Transforming Ideas <br /> Into{" "}
               <span className="text-accent">Digital Reality</span>
