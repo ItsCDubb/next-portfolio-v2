@@ -41,7 +41,7 @@ const Home = () => {
             <a
               href="/chris_warren.pdf"
               download
-              className="bg-secondary rounded-full p-3 w-full justify-center align-middle text-center mb-5 border border-white/50 hover:bg-accent"
+              className="bg-secondary rounded-full p-3 w-full max-w-[115px] justify-center align-middle text-center mb-5 border border-white/50 hover:bg-accent"
             >
               My Resume
             </a>
