@@ -15,7 +15,7 @@ const Home = () => {
           content="I'm a Full-Stack Engineer, Designer, & so many other things."
         />
       </Head>
-      <div className="bg-primary/60 h-full sm:text-sm ">
+      <div className="bg-primary/60 h-100vh sm:text-sm">
         <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
           <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
             <motion.h1
@@ -41,7 +41,7 @@ const Home = () => {
             <a
               href="/chris_warren.pdf"
               download
-              className="bg-secondary rounded-full p-3 w-[110px] justify-center text-center mb-5 border border-white/50 hover:bg-accent"
+              className="bg-secondary rounded-full p-3 w-full justify-center align-middle text-center mb-5 border border-white/50 hover:bg-accent"
             >
               My Resume
             </a>

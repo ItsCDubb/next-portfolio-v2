@@ -40,12 +40,10 @@ const Contact = () => {
           content="My contact page, feel free to contact me so I can build a solution for you."
         />
       </Head>
-      <div className="h-full bg-primary/30">
+      <div className="bg-primary/30 mt-[120px] h-full">
         <Circles />
         <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
-          {/* text & form */}
-          <div className="flex flex-col w-full max-w-[700px]">
-            {/* text */}
+          <div className="flex flex-col w-full max-w-[700px] h-[100vh]">
             <motion.h2
               variants={fadeIn("up", 0.2)}
               initial="hidden"
@@ -60,7 +58,7 @@ const Contact = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="flex h3 text-center mb-12 justify-between"
+              className="flex flex-col h3 text-center mb-12 justify-between"
             >
               Email:{" "}
               <a href="mailto:chris.warren.2019@gmail.com">
@@ -71,7 +69,6 @@ const Contact = () => {
                 <span className="text-accent">(469) 364-4015</span>
               </a>
             </motion.div>
-            {/* form */}
             <motion.form
               ref={form}
               onSubmit={sendMail}
@@ -81,7 +78,6 @@ const Contact = () => {
               exit="hidden"
               className="flex-1 flex flex-col gap-6 w-full mx-auto"
             >
-              {/* input group */}
               <div className="flex gap-x-6 w-full">
                 <input
                   type="text"
