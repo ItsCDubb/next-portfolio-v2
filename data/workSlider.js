@@ -42,6 +42,28 @@ export const workSlider = {
           link: "https://twitter-look-a-like.web.app/",
           github: "https://github.com/ItsCDubb/twitter-look-a-like",
         },
+        {
+          title: "My Sandwich",
+          path: "/images/projects/Design/MySandwich.webp",
+          link: "/pages/mySandwich.html",
+          github: "https://github.com/ItsCDubb/",
+        },
+        {
+          title: "DIY Projects",
+          path: "/images/projects/Design/DIYProjects.webp",
+          link: "/pages/diyProjects.html",
+          github: "https://github.com/ItsCDubb/",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "Nutrion Facts",
+          path: "/images/projects/Design/NutrionFacts.webp",
+          link: "/pages/nutritionFacts.html",
+          github: "https://github.com/ItsCDubb/",
+        },
       ],
     },
   ],
