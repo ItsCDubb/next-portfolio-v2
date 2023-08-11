@@ -45,13 +45,13 @@ export const workSlider = {
         {
           title: "My Sandwich",
           path: "/images/projects/Design/MySandwich.webp",
-          link: "/pages/mySandwich.html",
+          link: "/pages/mySandwich/mySandwich.html",
           github: "https://github.com/ItsCDubb/",
         },
         {
           title: "DIY Projects",
           path: "/images/projects/Design/DIYProjects.webp",
-          link: "/pages/diyProjects.html",
+          link: "/pages/diyProjects/diyProjects.html",
           github: "https://github.com/ItsCDubb/",
         },
       ],
@@ -61,7 +61,7 @@ export const workSlider = {
         {
           title: "Nutrion Facts",
           path: "/images/projects/Design/NutrionFacts.webp",
-          link: "/pages/nutritionFacts.html",
+          link: "/pages/nutritionFacts/nutritionFacts.html",
           github: "https://github.com/ItsCDubb/",
         },
       ],
